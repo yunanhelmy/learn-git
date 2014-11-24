@@ -108,7 +108,7 @@ Example :
 Step :
 * list file-1 in .gitignore
 * remove index repository using `git rm file-1`
-* add and commit you .gitignore
+* add and commit your .gitignore
 
 
 ## Tips
