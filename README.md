@@ -99,4 +99,25 @@ There area several commands in log :
 * `git shortlog` is simple short log
 
 ### ignoring files
-Use .gitignore to ignore files, create `.gitignore` and list your file there.
+Use .gitignore to ignore files, create `.gitignore` and list your file there. If your file already there before you ignore it, you can rm that file first.
+
+Example :
+
+`file-1 already there, you want to ignore the changes in the file-1`
+
+Step :
+* list file-1 in .gitignore
+* remove index repository using `git rm file-1`
+* add and commit you .gitignore
+
+
+## Tips
+* separate your short-lived branch and long-lived branch
+* use short-lived branch for every issue you had
+* periodically delete your short-lived branch
+* don't push your short-lived branch to the remote repository, unless you want to share the code to other developers 
+* name your long-lived branch clearly and understandable, eg production, staging, live, development
+* name your short-lived branch with prefix (if you don't have issue number / ticket number). this will make you easy to remember when you have a lot of short-lived branch
+* create another master backup if you are unsure when you want to merge. test it in that backup before going to master. don't forget to delete your junk branch
+* use `revert` instead `reset` unless you want completely remove commit history
+* be aware with rebase. one failure can be a fatal. rebasing will completely override code. that means you lost the changes in the same file
