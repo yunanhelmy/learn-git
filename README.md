@@ -98,4 +98,5 @@ There area several commands in log :
 * `git log --graph --oneline --decorate` will print graph
 * `git shortlog` is simple short log
 
-### tips
+### ignoring files
+Use .gitignore to ignore files, create `.gitignore` and list your file there.
