@@ -27,7 +27,7 @@ We will learn how to pick specific commit using cherry-pick
 * pick the commit "add fruits" (from master)
 * push
 
-### Excercise 8
+### Exercise 8
 Ok now we have to ignoring the changes in file-2. But file-2 already exist. Lets do gitignore
 * create new branch
 * add file .gitignore
