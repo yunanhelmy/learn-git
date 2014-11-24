@@ -25,4 +25,18 @@ Now you can exercise with this :
 * add it (with only 1 line command) and commit it
 * push it to branch 1-basic-example
 
+Undo and stash
+====================
+You will exercise how to undo your unstaged changes.
+
+### Exercise 2
+* add new folder named employees
+* add file `softwareseni.txt` and add some employee name
+* check the diff
+* edit `dogs.txt`
+* check the diff
+* undo the changes in `dogs.txt`
+* stash it and store to the new branch named `employee`
+* add and commit , then push branch employee
+
 
