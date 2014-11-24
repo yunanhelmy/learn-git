@@ -1,7 +1,7 @@
-Brancing, merging, rebasing, cherry-picking, gitignore
+Branching, merging, rebasing, cherry-picking, gitignore
 ======================================================
 
-Oops i think we have unused branch named 3-branch-test. Can you delete it?
+Oops i think we have unused branch named `3-branch-test`. Can you delete it?
 
 I've create branch `3-branch`. Hopefully you remember how to create a branch. I create this branch with `git checkout -b 3-branch origin/master`. 
 
@@ -24,7 +24,7 @@ We will learn how to rebase `3-branch` onto master. `3-branch` is ahead of 1 com
 ### Exercise 7
 We will learn how to pick specific commit using cherry-pick
 * checkout branch `2-collaborate`
-* pick this commit 1ed219bc3298f768df02d709919ef4df199a7b9d (from master)
+* pick the commit "add fruits" (from master)
 * push
 
 ### Excercise 8
