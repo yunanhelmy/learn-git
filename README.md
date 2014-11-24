@@ -123,8 +123,8 @@ Step :
 * be aware with rebase. one failure can be a fatal. rebasing will completely override code. that means you lost the changes in the same file
 
 
-Excercise
+Exercise
 =========
-* [excercise 1](https://github.com/yunanhelmy/learn-git/tree/1-basic-example)
-* [excercise 2](https://github.com/yunanhelmy/learn-git/tree/2-collaborate)
-* [excercise 3](https://github.com/yunanhelmy/learn-git/tree/3-branch)
+* [exercise 1](https://github.com/yunanhelmy/learn-git/tree/1-basic-example)
+* [exercise 2](https://github.com/yunanhelmy/learn-git/tree/2-collaborate)
+* [exercise 3](https://github.com/yunanhelmy/learn-git/tree/3-branch)
