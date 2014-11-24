@@ -121,3 +121,10 @@ Step :
 * create another master backup if you are unsure when you want to merge. test it in that backup before going to master. don't forget to delete your junk branch
 * use `revert` instead `reset` unless you want completely remove commit history
 * be aware with rebase. one failure can be a fatal. rebasing will completely override code. that means you lost the changes in the same file
+
+
+Excercise
+=========
+* [excercise 1](https://github.com/yunanhelmy/learn-git/tree/1-basic-example)
+* [excercise 2](https://github.com/yunanhelmy/learn-git/tree/2-collaborate)
+* [excercise 3](https://github.com/yunanhelmy/learn-git/tree/3-branch)
